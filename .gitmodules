@@ -1,0 +1,3 @@
+[submodule "my_django_project"]
+	path = my_django_project
+	url = ./my_django_project/
