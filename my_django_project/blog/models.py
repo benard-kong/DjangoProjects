@@ -4,4 +4,4 @@ from django.db import models
 class Post(models.Model):
     title = models.CharField(max_length=256)
     author = models.CharField(max_length=50)
-    content = models.TextField()
+    #content = models.TextField()
