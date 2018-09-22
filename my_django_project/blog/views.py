@@ -15,3 +15,6 @@ def home(request):
     all_posts = Post.objects.all()
     dat = {'posts': all_posts}
     return render(request, "blog/home.html", context=dat)
+
+def about(request):
+    return render(request, "blog/about.html")
